@@ -1,0 +1,49 @@
+Title: SPARC. I. Mass Models for 175 Disk Galaxies with
+       Spitzer Photometry and Accurate Rotation Curves
+Authors: Nathaniel Starkman, Federico Lelli, Stacy S. McGaugh and James M. Schombert
+Table: Galaxy Sample Supplement
+================================================================================
+Byte-by-byte Description of file: GS_MRT.mrt
+--------------------------------------------------------------------------------
+   Bytes Format    Units           Label   Explanations
+--------------------------------------------------------------------------------
+  1-     A15        ---            ID      Galaxy Name
+  16-    F.2     SolMass/solLum    M2L     Mass-to-Light Ratio
+  24-    F.2     SolMass/solLum  e_M2L     Unvertainty in M2L
+  34-    F.2     SolMass/solLum    M2Lb     Bulge Mass-to-Light Ratio
+  43-    A6         ---            T       Hubble Type (1)
+  49-    F.2     Mpc               D       Distance
+  57-    F.2     Mpc             e_D       Mean error on D
+  67-    F.1     deg               Inc     Inclination
+  74-    F.1     deg             e_Inc     Mean error on Inc
+  83-    F.3     10+9solLum        L[3.6]  Total Luminosity at [3.6]
+  92-    F.3     10+9solLum      e_L[3.6]  Mean error on L[3.6]
+  103-   F.3     10+9solLum        Lbulge  Bulge Luminosity at [3.6]
+  113-   F.2     kpc               Reff    Effective Radius at [3.6]
+  122-   F.2     kpc               Rp      Radius of peak Vbar (5)
+  131-   F.3     solLum/pc2        SBeff   Effective Surface Brightness at [3.6]
+  141-   F.3     solLum/pc2      e_SBeff   Uncertainty in SBeff
+  153-   F.2     kpc               Rdisk   Disk Scale Length at [3.6]
+  163-   F.3     solLum/pc2        SB0     Disk Central Surface Brightness at [3.6]
+  173-   F.3     solLum/pc2      e_SB0     Uncertainty in SBdisk
+  186-   F.2     10+9solMass/pc2   Mbar    Baryonic mass (6)
+  198-   F.3     10+9solMass/pc2 e_Mbar    Uncertainty in Mbar (6)
+  210-   F.3     solLum/pc2        SBbar   Baryonic Surface Brightness at [3.6] (6)
+  222-   F.3     solLum/pc2      e_SBbar   Uncertainty in SBbar (6)
+  236-   F.2     km/s              Vp      Vobs at Rp (6)
+  243-   F.2     km/s            e_Vp      Uncertainty in Vp (6)
+  253-   F.3     km/s              Vb      Vbar at Rp (6)
+  262-   F.3     km/s            e_Vb      Uncertainty in Vbar (6)
+--------------------------------------------------------------------------------
+Note (1):
+ 0 = S0,  1 = Sa, 2 = Sab, 3 = Sb, 4 = Sbc, 5 = Sc,
+ 6 = Scd, 7 = Sd, 8 = Sdm, 9 = Sm, 10 = Im, 11 = BCD
+Note (2):
+ 1 = Hubble-Flow assuming H0=73 km/s/Mpc and correcting for Virgo-centric infall
+ 2 = Magnitude of the Tip of the Red Giant Branch
+ 3 = Cepheids Magnitude-Period Relation
+ 4 = Ursa Major Cluster of Galaxies
+ 5 = Supernovae Light Curve
+Note (5):
+ Values given in Mass Models Supplement table
+--------------------------------------------------------------------------------
